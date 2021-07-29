@@ -5,8 +5,11 @@
 		"factoryName": {
 			"value": "Azurecicd"
 		},
-		"AzureBlobStorage1_connectionString": {
-			"value": ""
+		"AzureBlobStorage1_properties_typeProperties_connectionString_secretName": {
+			"value": "azurecicdaccount-connectionstring"
+		},
+		"AzureKeyVault_dev_properties_typeProperties_baseUrl": {
+			"value": "https://Azurecicd-dev.vault.azure.net/"
 		},
 		"containerUri": {
 			"value": ""
